@@ -12,7 +12,7 @@ end)
 Section:NewSlider("Jump", "SliderInfo", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
     game.Players.LocalPlayer.Character.Humanoid.WalkJump = s
 end)
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("Infinite Yield", "ButtonInfo", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 Section:NewButton("NO SCRIPT", "ButtonInfo", function()
