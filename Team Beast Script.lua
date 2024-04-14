@@ -158,6 +158,8 @@ local Section = Tab:NewSection("")
 
 local Tab = Window:NewTab("👥Связь")
 local Section = Tab:NewSection("Ник разраба")
+Section:NewButton("КОПИРОВАТЬ НИК", "ButtonInfo", function()
+loadstring(game:HttpGet('local Section = Tab:NewSection("Ник разраба")
 local text = "@android_haker7"
 local button = widget.newButton {
     label = "Копировать",
@@ -168,9 +170,12 @@ local button = widget.newButton {
         end
     end
 }
-button.x = display.contentCenter
+button.x = display.contentCenter'))()
+end)
 local Section = Tab:NewSection("Telegram")
-local text = "@Termovirus"
+Section:NewButton("КОПИРОВАТЬ ТГК", "ButtonInfo", function()
+loadstring(game:HttpGet('local Section = Tab:NewSection("Ник разраба")
+local text = "@android_haker7"
 local button = widget.newButton {
     label = "Копировать",
     onEvent = function(event)
@@ -180,4 +185,5 @@ local button = widget.newButton {
         end
     end
 }
-button.x = display.contentCenter
+button.x = display.contentCenter'))()
+end)
