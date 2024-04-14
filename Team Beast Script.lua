@@ -158,10 +158,26 @@ local Section = Tab:NewSection("")
 
 local Tab = Window:NewTab("👥Связь")
 local Section = Tab:NewSection("Ник разраба")
-Section:NewButton("@android_haker7", "ButtonInfo", function()
-print("look")
-end)
+local text = "@android_haker7"
+local button = widget.newButton {
+    label = "Копировать",
+    onEvent = function(event)
+        if event.phase == "ended" then
+            system.setClipboard(text)
+            print("Текст скопирован: " .. text)
+        end
+    end
+}
+button.x = display.contentCenter
 local Section = Tab:NewSection("Telegram")
-Section:NewButton("@Termovirus", "ButtonInfo", function()
-print("подпишись")
-end)
+local text = "@Termovirus"
+local button = widget.newButton {
+    label = "Копировать",
+    onEvent = function(event)
+        if event.phase == "ended" then
+            system.setClipboard(text)
+            print("Текст скопирован: " .. text)
+        end
+    end
+}
+button.x = display.contentCenter
