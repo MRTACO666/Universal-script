@@ -12,7 +12,8 @@ end)
 Section:NewButton("Ragdoll", "ButtonInfo", function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Ragdoll-Engine-Script-12225"))()    
 end)
-local Section = Tab:NewSection("КОНЕЦ")
+local Section = Tab:NewSection("")
+local Section = Tab:NewSection("")
 
 
 local Tab = Window:NewTab("🏡Brookhaven")
@@ -41,7 +42,8 @@ end)
 Section:NewButton("No name", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
 end)
-local Section = Tab:NewSection("КОНЕЦ")
+local Section = Tab:NewSection("")
+local Section = Tab:NewSection("")
 
 
 local Tab = Window:NewTab("🗡️Murder Mystery 2")
@@ -70,7 +72,8 @@ end)
 Section:NewButton("Folder Hub", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Gregory909/FolderGui-FolderHub/main/loader.lua", true))()
 end)
-local Section = Tab:NewSection("КОНЕЦ")
+local Section = Tab:NewSection("")
+local Section = Tab:NewSection("")
 
 
 local Tab = Window:NewTab("🚪Doors")
@@ -90,7 +93,8 @@ end)
 Section:NewButton("MrNeRD0[", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/NeRDV3.5_New.lua"))()
 end)
-local Section = Tab:NewSection("КОНЕЦ")
+local Section = Tab:NewSection("")
+local Section = Tab:NewSection("")
 
 
 local Tab = Window:NewTab("🍇Blox Fruits")
@@ -110,7 +114,8 @@ end)
 Section:NewButton("Yatsura", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Yuri/main/WinharHuB.lua"))() 
 end)
-local Section = Tab:NewSection("КОНЕЦ")
+local Section = Tab:NewSection("")
+local Section = Tab:NewSection("")
 
 
 local Tab = Window:NewTab("🏀Blade Ball")
@@ -130,6 +135,8 @@ end)
 Section:NewButton("Bladeba hub", "ButtonInfo", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/3345-c-a-t-s-u-s/New-C4-Remote.lua/main/BetaTest/Bladeball15m.html'))()
 end)
+local Section = Tab:NewSection("")
+local Section = Tab:NewSection("")
 
 
 local Tab = Window:NewTab("👥Связь")
