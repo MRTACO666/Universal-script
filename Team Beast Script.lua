@@ -158,32 +158,14 @@ local Section = Tab:NewSection("")
 
 local Tab = Window:NewTab("👥Связь")
 local Section = Tab:NewSection("Ник разраба")
-Section:NewButton("КОПИРОВАТЬ НИК", "ButtonInfo", function()
-loadstring(game:HttpGet('local Section = Tab:NewSection("Ник разраба")
-local text = "@android_haker7"
-local button = widget.newButton {
-    label = "Копировать",
-    onEvent = function(event)
-        if event.phase == "ended" then
-            system.setClipboard(text)
-            print("Текст скопирован: " .. text)
-        end
-    end
-}
-button.x = display.contentCenter'))()
+Section:NewButton("android_haker7", "ButtonInfo", function()
+    print("Clicked")
 end)
-local Section = Tab:NewSection("Telegram")
-Section:NewButton("КОПИРОВАТЬ ТГК", "ButtonInfo", function()
-loadstring(game:HttpGet('local Section = Tab:NewSection("Ник разраба")
-local text = "@android_haker7"
-local button = widget.newButton {
-    label = "Копировать",
-    onEvent = function(event)
-        if event.phase == "ended" then
-            system.setClipboard(text)
-            print("Текст скопирован: " .. text)
-        end
-    end
-}
-button.x = display.contentCenter'))()
+local Section = Tab:NewSection("ТГК РАЗРАБА")
+Section:NewButton("@WORLDHAK_666", "ButtonInfo", function()
+    print("Clicked")
+end)
+local Section = Tab:NewSection("Связь с разрабом (тг)")
+Section:NewButton("@MRTACO_666", "ButtonInfo", function()
+    print("Clicked")
 end)
