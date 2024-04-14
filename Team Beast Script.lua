@@ -4,6 +4,23 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Roboj
 local Window = Library.CreateLib("Team Beast Script | Universal ", "RJTheme6")
 
 
+local Tab = Window:NewTab("📁Universal")
+local Section = Tab:NewSection("Все универсальные скрипты")
+Section:NewSlider("Speed", "SliderInfo", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+Section:NewSlider("Jump", "SliderInfo", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+    game.Players.LocalPlayer.Character.Humanoid.WalkJump = s
+end)
+Section:NewButton("ButtonText", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+Section:NewButton("NO SCRIPT", "ButtonInfo", function()
+    print("Clicked")
+end)
+local Section = Tab:NewSection("КОНЕЦ")
+
+
 local Tab = Window:NewTab("🤡Ragdoll")
 local Section = Tab:NewSection("все скрипты для рагдолл")
 Section:NewButton("SystemBroken", "ButtonInfo", function()
