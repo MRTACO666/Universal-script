@@ -9,8 +9,8 @@ local Section = Tab:NewSection("Все универсальные скрипты
 Section:NewTextBox("Speed", "TextboxInfo", function(txt)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
 end)
-Section:NewTextBox("Jump", "TextboxInfo", function(c)
-game.Players.LocalPlayer.Character.Humanoid.WalkJump = c
+Section:NewTextBox("Jump", "TextboxInfo", function(txt)
+game.Players.LocalPlayer.Character.Humanoid.WalkJump = txt
 end)
 Section:NewButton("Infinite Yield", "ButtonInfo", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
