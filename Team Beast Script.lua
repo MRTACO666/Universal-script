@@ -6,11 +6,11 @@ local Window = Library.CreateLib("Team Beast Script | Universal ", "RJTheme6")
 
 local Tab = Window:NewTab("📁Universal")
 local Section = Tab:NewSection("Все универсальные скрипты")
-Section:NewSlider("Speed", "SliderInfo", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+Section:NewTextBox("Speed", "TextboxInfo", function(txt)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed
 end)
-Section:NewSlider("Jump", "SliderInfo", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
-    game.Players.LocalPlayer.Character.Humanoid.WalkJump = s
+Section:NewTextBox("Jump", "TextboxInfo", function(txt)
+game.Players.LocalPlayer.Character.Humanoid.WalkJump
 end)
 Section:NewButton("Infinite Yield", "ButtonInfo", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
