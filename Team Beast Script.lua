@@ -12,6 +12,19 @@ end)
 Section:NewTextBox("Jump", "TextboxInfo", function(txt)
 game.Players.LocalPlayer.Character.Humanoid.WalkJump = txt
 end)
+Section:NewButton("Ускорение каждую сек", "ButtonInfo", function()
+```lua
+local player = game.Players.LocalPlayer
+local humanoid = player.Character.Humanoid
+
+local speedIncrease = 5 -- увеличение скорости каждую секунду
+
+while true do
+    wait(1) -- ждем 1 секунду
+    
+    humanoid.WalkSpeed = humanoid.WalkSpeed + speedIncrease -- увеличиваем скорость игрока
+end
+```
 Section:NewButton("Infinite Yield", "ButtonInfo", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
